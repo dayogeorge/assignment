@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+.drop{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    opacity: .55;
+    color: balck;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 13px;
+}
+img{
+	width: 272px;
+	height: 92px;
+}
+#header-section {
+    float: right;
+}
+#gmail{
+    color : #4c4c4c;
+}
+#images{
+    color : #4c4c4c;
+}
+#header-section ol{
+    display: inline-block;
+}
+#header-section li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.signInButton{
+    padding: 5px 8px 5px 8px;
+    background: #4486f7;
+    color: white;
+    text-decoration: none;
+    margin-right: 13px;
+}
+.center-element{
+	text-align: center;
+}
+.search-field {
+
+    background-color: transparent;
+    border: 1px outset #dadada;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    border-radius: 4px;
+    width: 484px;
+    height: 44px;
+    outline: none;
+    background-image: url('Google_mic.png');
+    background-repeat: no-repeat;
+    /*border-color: 1px solid red;*/
+    background-position: right;
+}
+.search-field:hover {
+    box-shadow: 0 3px 5px #d9d9d9;
+}
+.google-search:hover {
+    box-shadow: 0 3px 5px #d9d9d9;
+    color: #000
+}
+
+.vote{
+    text-decoration: none;
+}
+#local-language ol{
+    text-decoration: none;
+}
+#local-languages li{
+    display: inline-block;
+    float: center;
+}
+#loacal-languages ol{
+    display: inline;
+    /*shape-margin: */
+    margin-left: 10px;
+}
+
+.vote{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/*.vote{*/
+    /*text-decoration: none;*/
+h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.google-search{
+	text-decoration: none;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 11px 18px;
+    text-align: center;
+}
+.google-search-con{
+		margin: 40px 40px 40px 40px;
+}
+.container-drop-logo{
+    position: relative;
+    padding: 200px 0 0 0;
+}
+.footer{
+    margin-top: 125px;
+    background-color: #f2f2f2;
+    /*border: .1px solid rgba(0,0,0,.60);*/
+    color: rgba(0,0,0,.54);
+    position: relative;
+}
+#topFooter{
+    padding: 10px;
+    border-bottom: .25px solid  rgba(0,0,0,.54);
+    margin-left: 15px
+}
+#leftFooter{
+    display: inline-block;
+    padding-left: 0;
+    /*float: left;*/
+}
+#leftFooter li{
+    display: inline;
+    margin-right: 16px;
+    margin-left: 23px;
+}
+
+#rightFooter{
+    display: inline-block;
+    float: right;
+}
+#rightFooter li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#privacy{
+    text-decoration: none;
+    color : #7f7f7f;
+}
+
+#terms{
+    text-decoration: none;
+    color : #7f7f7f;
+}
+#settings{
+    text-decoration: none;
+    color : #7f7f7f;
+}
